@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    height: 90vh;
+    background-image: url("../img/image-attractive.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#navbar {
+    height: 10vh;
+    padding: 15px 0px 0px 15px;
+}
+
+.btn-burger {
+    height: 8vh;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    position: relative;
+}
+
+.bar1 {
+    width: 40px;
+    height: 4px;
+    background-color: black;
+    display:block;
+    margin: 0px 10px;
+}
+
+.bar2, .bar3{
+    margin-top: 10px;
+    width: 40px;
+    height: 4px;
+    background-color: black;
+    display:block;
+    margin: 10px 10px 0px 10px;
+}
+
+#navbar>ul {
+    position: absolute;
+    text-transform: uppercase;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px 30px;
+    background-color: lightgrey;
+    margin: 10px 0px 0px 10px;
+}
+
+a:visited { text-decoration: none; color: black; }
+a:hover { text-decoration: none; color: black; }
+a:focus { text-decoration: none; color: black; }
+a:hover, a:active { text-decoration: none; color:black }
+
+
+li {
+    list-style-type: none;
+}
+
+
+
+/* --------------------SECTION1-------------------- */
+#section1{
+    height: 30vh;
+    background-color: azure;
+    text-align: center;
+
+}
+
+/* --------------------SECTION2-------------------- */
+#section2{
+    height: 30vh;
+    background-color: blanchedalmond;
+    text-align: center;
+
+}
+
+/* --------------------SECTION3-------------------- */
+#section3 {
+    height: 30vh;
+    background-color: aliceblue;
+    text-align: center;
+}
